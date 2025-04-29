@@ -90,3 +90,18 @@ int multiply(int a, int b) {
     return a * b;
 }
 
+
+
+
+
+
+
+                                                                                         #OUTPUT
+
+
+
+
+											 Hello! Welcome to C Programming with Functions.
+Sum of 5 and 3 is: 8
+Product of 5 and 3 is: 15
+
