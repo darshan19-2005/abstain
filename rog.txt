@@ -44,4 +44,49 @@ Array elements using pointer arithmetic:
 arr[0] = 100
 arr[1] = 200
 arr[2] = 300
+                        
+
+
+
+
+
+
+
+
+
+
+			# FUNCTIONS
+			#include <stdio.h>
+
+// Function declarations
+void greet();
+int add(int a, int b);
+int multiply(int a, int b);
+
+int main() {
+    int x = 5, y = 3;
+
+    greet();  // Call function with no parameters
+
+    int sum = add(x, y);  // Call function with parameters and return value
+    printf("Sum of %d and %d is: %d\n", x, y, sum);
+
+    int product = multiply(x, y);
+    printf("Product of %d and %d is: %d\n", x, y, product);
+
+    return 0;
+}
+
+// Function definitions
+void greet() {
+    printf("Hello! Welcome to C Programming with Functions.\n");
+}
+
+int add(int a, int b) {
+    return a + b;
+}
+
+int multiply(int a, int b) {
+    return a * b;
+}
 
