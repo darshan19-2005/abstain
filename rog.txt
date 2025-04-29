@@ -33,4 +33,15 @@ int main() {
 
     return 0;
 }
+                                                #output of the programm
+						Address of x: 0x7ffc3d04c8ac
+Value of x using ptr: 10
+
+Before swapping: x = 10, y = 20
+After swapping: x = 20, y = 10
+
+Array elements using pointer arithmetic:
+arr[0] = 100
+arr[1] = 200
+arr[2] = 300
 
